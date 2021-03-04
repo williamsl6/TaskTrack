@@ -10,7 +10,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    android:background="#0F9D58"
+    android:background="#64a7c8"
     android:padding="16dp"
     tools:context="com.example.stopwatch.MainActivity">
     <!-- Add some background color -->

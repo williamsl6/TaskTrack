@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name = "app_name">GFG|Stopwatch</string>
+    <string name = "app_name">TaskTrack</string>
     <string name="start">Start</string>
     <string name= "stop" >Stop</string>
     <string name="reset">Reset</string>
     <string name="navigation_drawer_open"> Open navigation drawer</string>
     <string name= "navigation_drawer_close">Close navigation drawer</string>
     <string name="navi">Close</string>
+
+    <!-- main page strings-->
+    <string name= "timer">Timer</string>
+    <string name= "new_task">New Task</string>
 </resources>

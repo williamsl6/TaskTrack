@@ -5,8 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
@@ -67,6 +69,23 @@ public class MainActivity extends AppCompatActivity {
         runTimer();
 
     }
+    /*
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.navi) {
+
+            // This code will start the new activity when the settings button is clicked on the bar at the top.
+            Intent intent = new Intent(mainPage.this, mainPage.class);
+            startActivity(intent);
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+    */
+
 
     /*
      *  Start the stopwatch when start is clicked.

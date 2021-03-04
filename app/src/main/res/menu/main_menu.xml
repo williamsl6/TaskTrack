@@ -4,9 +4,13 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:title="main"
+
+            <menu>
+                <item
             android:id="@+id/nav_home"
             android:icon="@drawable/menu"
-            android:title="Home" />
+            />
 
     </group>
 
