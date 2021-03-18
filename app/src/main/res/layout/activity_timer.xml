@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="#64a7c8"
+    android:padding="16dp"
+    tools:context="com.example.stopwatch.Timer">
+    <!-- Add some background color -->
+
+
+
+    <TextView
+        android:id = "@+id/time_view"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center_horizontal"
+
+
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize = "56sp"/>
+
+    <Button
+        android:id = "@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "center_horizontal"
+        android:layout_marginTop = "20dp"
+
+        android:onClick = "onClickStart"
+        android:text = "@string/start" />
+
+
+    <!-- This code is for the Stop button. -->
+    <Button
+
+
+        android:id="@+id/stop_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+
+
+        android:onClick="onClickStop"
+        android:text= "@string/stop" />
+
+    <!-- When it gets clicked, the Stop button -->
+    <!-- calls the onClickStop() method. -->
+
+    <!-- This code is for Reset button. -->
+
+    <Button
+
+
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+
+
+        android:onClick="onClickReset"
+        android:text="@string/reset" />
+
+
+    <!-- When it gets clicked, the Reset button -->
+    <!-- calls the onClickReset() method. -->
+</LinearLayout>
+

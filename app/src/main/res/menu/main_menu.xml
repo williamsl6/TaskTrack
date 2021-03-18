@@ -6,11 +6,11 @@
         <item
             android:title="main"
 
-            <menu>
-                <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/menu"
-            />
+                android:id="@+id/nav_home"
+                android:icon="@drawable/menu"
+                    />
+
+
 
     </group>
 
